@@ -1,0 +1,19 @@
+body{
+    /* background: rgba(0, 0,0,0.9); */
+}
+
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 4rem 4rem;
+}
+.card{
+    padding: 2rem;
+    border: 1px solid #fff;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
